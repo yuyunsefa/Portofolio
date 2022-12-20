@@ -1,0 +1,202 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:rgb(230, 241, 243);
+
+}
+.marquee{
+    font-size: 35px;
+    color: rgb(14, 77, 77);
+}
+/*style the Header */
+.header {
+    width: 100%;
+    height: 45px;
+    border-bottom: 2.5px solid #859ed18f;
+    background-color: rgb(133, 177, 177);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+/*Style thr top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color:rgb(133, 177, 177);
+
+}
+/* Style the topnav links */
+.topnav a{
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/*Change color on hover */
+.topnav a:hover{
+    background-color: rgb(155, 194, 245);
+    color:white;
+}
+img.tengah{
+
+   float:left;
+   margin: 60px 49px 60px 0;
+   width:350px; 
+   height:350px; 
+   border-radius:300px; 
+   border:10px solid rgb(14, 77, 77); 
+}
+.hello{
+padding: 0px 84px;
+font-size: 35px;
+color: rgb(14, 77, 77);
+    
+}
+
+.footer {
+background-color: white;
+color: black;
+text-align: center;
+height: 60px;
+padding: 10px;
+margin-top: 250px;
+width: 100%;
+}
+.footer-logo{
+font-size: 32px;
+float: left;
+padding: 10px;
+}
+/*profil*/
+
+.container{
+padding: 0px 84px;
+}
+
+.profile{
+height: 600px;
+background-color:rgb(14, 77, 77);
+}
+.profile h1{
+font-size: 70px;
+text-align: center;
+color: rgb(167, 250, 204);
+margin-bottom: 4px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile p{
+width: 50%;
+font-size: 30px;
+text-align: left;
+color:white;
+margin-left: 20px;
+
+}
+.profile h2{
+font-size: 40px;
+color: white;
+margin-left: 20px;
+
+}
+.pict-profile {
+   float:right;
+   width:350px; 
+   height:350px; 
+   border-radius:300px;
+   border-color: beige; 
+   border:10px solid rgb(137, 206, 206);
+   margin-right: 50px;
+   
+}
+.profile ul{
+font-size: 30px;
+color: white;
+margin-left: 20px;
+
+}
+
+/* Skill */
+.skill-bar{
+    text-align: left;
+}
+.skill-box{
+    text-align: left;
+    width: 50%;
+    background-color: white;
+    margin-left: 30px;
+}
+.html{
+    text-align: left;
+    width: 25%;
+    background-color: red;
+}
+
+.css{
+    text-align: left;
+    width: 18%;
+    background-color: red;
+}
+
+.java{
+    text-align: left;
+    width: 22%;
+    background-color: red;
+}
+
+/* Galery */
+
+.galery{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.h1{
+    font-size: 70px;
+    text-align: center;
+    color:rgb(14, 77, 77) ;
+    margin-bottom: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    
+.galery img{
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+.galery img:hover{
+    background-color: rgb(14, 77, 77) ;
+    cursor: p;
+}
+
+.table{
+color: white;
+}
+
+.footer{
+    padding-top: 45px;
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(14, 77, 77);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer sup{
+    color:white;
+    text-align: center;
+}
